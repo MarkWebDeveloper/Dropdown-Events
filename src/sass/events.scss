@@ -54,7 +54,7 @@
 .event_desc {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     height: 150px;
     padding: 10px;
@@ -67,5 +67,6 @@
 
     p {
         font-size: 0.9rem;
+        margin-bottom: 10px;
     }
 }
